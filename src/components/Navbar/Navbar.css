@@ -1,0 +1,21 @@
+.main-container {
+  height: 110px;
+  width: 100%;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-logo{
+  background-image: url('https://pre00.deviantart.net/4a3b/th/pre/i/2014/120/d/c/airplane_logo_by_haecy01-d7gk0mo.png');
+  height: 10vh;
+  width: 7%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+
+}

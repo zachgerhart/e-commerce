@@ -1,0 +1,39 @@
+.main-image-container {
+  background-image: url('../../images/mainImage.jpeg');
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.main-image-lower{
+  display: flex;
+  flex-direction: row;
+}
+
+.main-left-image {
+  background-image: url('../../images/main-left-image.jpeg');
+  height: 50vh;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.main-right-image{
+  background-image: url('../../images/main-right-image.jpeg');
+  height: 50vh;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  float: right;
+}
+
+.featured{
+  height: 80vh;
+  width: 100%;
+}
