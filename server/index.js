@@ -19,10 +19,15 @@ const app = express();
 app.use(json())
 app.use(cors())
 
-// app.get('/api/test', function(reg, res){
+// app.get('/api/test', function(req, res){
 //   const keys = Object.keys(req)
 //   res.json(keys)
 // })
+
+//Checking if backend is connected to frontend
+app.get('/api/test', (req, res, next) => {
+  res.status(200).json('hello from backend')
+})
 
 massive(connectionString).then(dbInstance => app.set('db', dbInstance))
 .catch(console.log)
