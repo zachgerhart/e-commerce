@@ -33,11 +33,11 @@ massive(connectionString).then(dbInstance => app.set('db', dbInstance))
 
 
 //endpoints
-// app.get('api/products', controller.getproducts);
 app.get('/api/test', controller.getAllUsers);
 
 app.get('/api/featured', controller.getAllFeatured);
 
+app.get('/api/products', controller.getProducts);
 
 
 

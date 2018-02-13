@@ -47,7 +47,7 @@ class Home extends Component {
         <section className="featured">
             {featuredProducts}
         </section>
-        <Footer /> 
+        {/* <Footer /> */}
 
       </div>
     )
