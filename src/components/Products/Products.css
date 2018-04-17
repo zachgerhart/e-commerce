@@ -3,3 +3,16 @@
   width: 260px;
   border-radius: 4px;
 }
+
+.products{
+  display: flex;
+  flex-direction: column;
+  justify-content:  space-around;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.product-description {
+
+}

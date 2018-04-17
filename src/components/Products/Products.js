@@ -22,7 +22,7 @@ class Products extends Component {
 
 
   render(){
-    const allProducts = this.state.products.map((product, index) => {
+     const allProducts = this.state.products.map((product, index) => {
       return (
         <div key={index} className="products">
           <img className="product-images" src={`${product.imageUrl}`} />
